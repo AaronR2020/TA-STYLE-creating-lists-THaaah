@@ -137,7 +137,7 @@ li{
     font-weight: bolder;
 }
 .S1_{
-    
+    height:fit-content;
     width: 150px;
 }
 .S1_1{
@@ -173,11 +173,11 @@ hr{
 
 .img{
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     margin-left: 40%;
     width: 50px;
     height: 50px;
-    border-radius: 100%;
+    border-radius: 80%;
 }
 .X{
     border-radius: 10px;
@@ -194,3 +194,42 @@ hr{
     padding: 10px 10px;
 }
 /*Section 2*/
+#S2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233,108,119);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.flexR{
+    display: flex;
+    flex-direction: row; 
+}
+.left{
+    margin-top: 40px;
+    margin: 10px;
+    width: 400px;
+    background-color: rgb(236,130,140);
+
+}
+.left h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.left p{
+    margin-left: 60px;
+    margin-right: 60px;
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 10px;
+}
+.marginTile{
+    width:60%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
