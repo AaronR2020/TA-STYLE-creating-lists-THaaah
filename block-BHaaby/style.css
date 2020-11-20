@@ -1,0 +1,133 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom style */
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(212,206,167);
+}
+body main,.inner_header{
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+}
+.inner_header ol{
+    display: flex;
+}
+.inner_header li{
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/*dl,dt,dd*/
+dl{
+    font-size: 2em;
+    margin: 20px 0;
+}
+dt{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+dd{ 
+    margin-left: 55px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+/*3 lists*/
+.outer_box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.inner_box{
+    padding: 20px;
+    width: 30%;
+    background-color:rgb(0,89,121);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.7);
+}
+ol{
+    padding-left: 20px;
+    list-style-position: inside;
+    list-style-type: decimal;
+}
+ul ol{
+    padding-left: 20px;
+    list-style-position: inside;
+    list-style-type: decimal;
+}
+ul{
+    padding-left: 10px;
+    list-style-position: inside;
+    list-style-type: disc;
+
+}
+li{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: rgb(176,181,156);
+}
+.img li{
+    list-style: none;
+ }
+ .img li::before{
+    content: '';
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url("01.jpg") repeat;
+    margin-right: 5px;
+ }
+ header{
+     background-color:rgb(249,97,21);
+ }
+ #descript{
+     margin-top: 80px;
+ }
