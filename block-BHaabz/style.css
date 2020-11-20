@@ -68,7 +68,7 @@ li{
     margin-left:20px ;
 }
 .margin{
-    width:90%;
+    width:80%;
     margin:0 auto;
 }
 .Hfont{
@@ -124,3 +124,73 @@ li{
 
 }
 /*main section 1*/
+.S1{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    text-align: center;
+}
+.S1 p{
+
+    font-size: 20px;
+    font-weight: bolder;
+}
+.S1_{
+    
+    width: 150px;
+}
+.S1_1{
+    display: block;
+    float:right;
+    width: 100%;
+}
+.S1_2{
+    display: block;
+    float:right;
+    width: 80%;
+}
+.S1_3{
+    display: block;
+    float:right;
+    width: 50%;
+}
+hr{
+    border: 1px solid gray;
+    background-color: gray;
+}
+.flex{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex div{
+    width: 30%;
+    height: 100px;
+    background-color: white;
+}
+
+.img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 40%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.X{
+    border-radius: 10px;
+    border-bottom: 2px solid rgb(70, 69, 69);
+}
+.X h2{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.X p{
+    padding: 10px 10px;
+}
+/*Section 2*/
