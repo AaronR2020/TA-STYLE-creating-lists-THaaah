@@ -43,4 +43,84 @@ table {
 }
 /* custom font */
 
+.Header{
+    width: 100%;
+    background: url("assets/banner_use.jpg");
+}
+.Hcol{
+    display:flex;
+    flex-direction: column;
+}
+.HspaceBetween{
 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.white{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    margin-left:20px ;
+}
+.margin{
+    width:90%;
+    margin:0 auto;
+}
+.Hfont{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+}
+.Hinner{
+    width: 100px;
+    position: absolute;
+    background-color: white;
+    display: hidden;
+    top: 20px;
+    border: 1px solid black;
+    display: none;
+    transform: translateX(-170%);
+}
+.hover:hover .Hinner{
+    display: inline-block;
+}
+.Hinner li{
+    font-size: 10px;
+    color: black;
+    margin: 10px 10px;
+}
+#Htitle{
+    margin-top: 5%;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+#Htitle2{
+    margin-top: 10px;
+    color: red;
+    font-size: 40px;
+    font-weight: 100px;
+    text-align: center;
+}
+#Hbox{
+    margin-left:40%;
+    margin-top: 20px;
+    background-color: tomato;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 10%;
+}
+#Hbox p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+
+}
+/*main section 1*/
