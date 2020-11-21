@@ -1,0 +1,332 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom font */
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+.Header{
+    width: 100%;
+    background: url("assets/banner_use.jpg");
+}
+.Hcol{
+    display:flex;
+    flex-direction: column;
+}
+.HspaceBetween{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.white{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    margin-left:20px ;
+}
+.margin{
+    width:80%;
+    margin:0 auto;
+}
+.Hfont{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+}
+.Hinner{
+    width: 100px;
+    position: absolute;
+    background-color: white;
+    display: hidden;
+    top: 20px;
+    border: 1px solid black;
+    display: none;
+    transform: translateX(-170%);
+}
+.hover:hover .Hinner{
+    display: inline-block;
+}
+.Hinner li{
+    font-size: 10px;
+    color: black;
+    margin: 10px 10px;
+}
+#Htitle{
+    margin-top: 5%;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+#Htitle2{
+    margin-top: 10px;
+    color: red;
+    font-size: 40px;
+    font-weight: 100px;
+    text-align: center;
+}
+#Hbox{
+    margin-left:40%;
+    margin-top: 20px;
+    background-color: tomato;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 10%;
+}
+#Hbox p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+
+}
+/*main section 1*/
+.S1{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    text-align: center;
+}
+.S1 p{
+
+    font-size: 20px;
+    font-weight: bolder;
+}
+.S1_{
+    height:fit-content;
+    width: 150px;
+}
+.S1_1{
+    display: block;
+    float:right;
+    width: 100%;
+}
+.S1_2{
+    display: block;
+    float:right;
+    width: 80%;
+}
+.S1_3{
+    display: block;
+    float:right;
+    width: 50%;
+}
+hr{
+    border: 1px solid gray;
+    background-color: gray;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex div{
+    width: 30%;
+    height: 100px;
+    background-color: white;
+}
+
+.img{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-left: 40%;
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+}
+.X{
+    border-radius: 10px;
+    border-bottom: 2px solid rgb(70, 69, 69);
+}
+.X h2{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.X p{
+    padding: 10px 10px;
+}
+/*Section 2*/
+#S2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233,108,119);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.flexR{
+    display: flex;
+    flex-direction: row; 
+}
+.left{
+    margin-top: 40px;
+    margin: 10px;
+    width: 400px;
+    background-color: rgb(236,130,140);
+
+}
+.left h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.left p{
+    margin-left: 60px;
+    margin-right: 60px;
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 10px;
+}
+.marginTile{
+    width:60%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+/*section 3*/
+#s3{
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+.right{
+    width: 30%;   
+    height: fit-content; 
+}
+.right h2{
+font-size: 20px;
+font-weight: bolder;
+text-align: center;
+margin-bottom: 10px;
+}
+.right p{
+font-size: 18px;
+text-align: center;
+margin-bottom: 10px;
+}
+/*section 4*/
+/*    CONTACT     */
+#s4{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(245,245,245);
+}
+#s4 p{
+
+    text-align: center;
+}
+.S4{
+    width: 80%;
+    margin: 0 auto;
+}
+.contact{
+    margin-top: 30px;
+    color: white;
+}
+.border{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.cont{
+    height:30px;
+}
+.flex hr{
+    
+}
+.LM{
+    padding: 10px;
+    width: 90%;
+    margin: 0 auto;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.width{
+    
+    max-width: fit-content;
+}
+.width span{
+  width: fit-content;
+  margin-left: 5px;   
+}
+/*footer*/
+footer{
+    height: fit-content;
+    background-color: rgb(204, 199, 199);
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.fot{
+    
+}
+.fot span{
+    color: rgb(94, 89, 89);
+}
+.fot hr{
+    position: relative;
+    bottom: 10px;
+    height: 20px;
+}
+.fott{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fott p{
+    color: rgb(94, 89, 89);
+    margin-left: 20px;
+}
